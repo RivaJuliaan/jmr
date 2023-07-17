@@ -1,5 +1,497 @@
+@font-face {
+    font-family:'quicksand' ;
+    src: url("../assets/fonts/Quicksand-VariableFont_wght.ttf");
+    }
+@font-face {
+    font-family:'supermario' ;
+    src: url("../assets/fonts/SuperMario256.ttf");
+}
+
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+/* barra de navegacion */
+header nav {
+    padding: 2.5rem 5rem;
+    background-color: #F29F05;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.div-img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.h1-titulo{
+    font-family: 'supermario';
+    color: white;
+    font-size: 2.1875rem;
+}
+
+.div-titulo a{
+    text-decoration: none;
+}
+
+.h1-titulo:hover{
+    text-shadow: .3125rem .3125rem .3125rem black;
+}
+
+.nav-center li a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-center{
+    list-style: none;
+    display: flex;
+    gap: 1.875rem;
+    font-family: 'quicksand';
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.nav-center li:hover{
+    text-shadow: .3125rem .3125rem .3125rem black;
+}
+
+.nav-redes{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: .625rem;
+}
+
+.nav-redes li a img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+/* main index */
+.main-index section div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1.25rem 3.125rem;
+}
+
+.section-div p{
+    width: 45%;
+    height: 50%;
+    padding: 100px 100px;
+    font-size: 2.5rem;
+    font-family: 'quicksand';
+}
+
+.section-div img{
+    width: 50%;
+    height: 50%;
+    padding: .625rem .625rem;
+}
+
+/* main solicite su presupuesto */
+.main-presupuesto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0rem 1.25rem;
+}
+.main-presupuesto form fieldset{
+    font-size: 1.25rem;
+    font-family: 'quicksand';
+    padding: 1.25rem .625rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2CB05;
+    gap: .625rem;
+}
+
+.main-presupuesto form{
+    height: 50%;
+    width: 50%;
+    padding: 6.25rem .625rem;
+}
+
+.main-presupuesto img{
+    width: 50%;
+    height: 50%;
+    padding: 6.25rem .625rem;
+}
+
+.div-mensaje input{
+    display: flex;
+    width: 50rem;
+    height: 25rem;
+}
+
+.input-submit{
+    padding: .625rem 18.75rem;
+}
+
+/* main de quienes somos */
+
+.main-somos{
+    width: 100%;
+    height: 100%;
+    padding: 6.25rem 31.25rem 31.25rem 37.5rem;
+    font-size: 2.1875rem;
+    font-weight: bolder;
+    font-family: 'quicksand';
+    background-image: url(../assets/img/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equipo-pared-lineas-verdes-rayo-laser-medicion-nivel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* main de servicios */
+
+.grid-section{
+    display: grid;
+    width: 100%;
+    padding: 3.125rem;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 5rem 31.25rem 5rem;
+    grid-template-areas: 
+    "col1 col2 col3"
+    "col4 col5 col6"
+    "col4 col5 col6"
+    ;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.color1{
+    grid-area: col1;
+    font-family: 'supermario';
+    font-size: 2.1875rem;
+    text-align: center;
+}
+.color2{
+    grid-area: col2;
+    font-family: 'supermario';
+    font-size: 2.1875rem;
+    text-align: center;
+}
+.color3{
+    grid-area: col3;
+    font-family: 'supermario';
+    font-size: 2.1875rem;
+    text-align: center;
+}
+.color4{
+    grid-area: col4;
+    background-image: url(../assets/img/d883d4c0-ba9d-4f64-b32b-a4c261a596b7.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.color5{
+    grid-area: col5;
+    background-image: url(../assets/img/56241009-3f6a-4c7d-a0f5-e0b0d687e00a.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.color6{
+    grid-area: col6;
+    background-image: url(../assets/img/cdf524ed-724d-46e9-93b9-6b1a392c3d38.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.grid-section a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+footer div{
+    font-size: 1.875rem;
+    font-family: 'quicksand';
+    font-weight: bolder;
+    background-color: #16232E;
+    color: white;
+    text-align: center;
+    padding: 1.875rem 3.125rem;
+
+}
+
+
+
+
+
+/* etiqueta border para el grosor de los bordes de cuadros 
+etiqueta solid dentro de border y luego los PX ----
+border style bordes con formas
+border color para el color
+border whitdth tamaño
+border radius achica los bordes 
+overflow hidden quita los exsecos q se salen de los cuadros
+etiqueta Margin
+
+*/
+/* position relative se utiliza para poder colococar una cosa encima de la otra o superpuestas */
+/* backron-color le da fondo de color por si solo ecepxto q especifique si es para una letr o otra cosa */
+/* text-alingn alinia los textos o los centra o los corres de lugar */
+/* list style le saca los puntos o los asteriscos a las listas */
+/* font size tamamño de la letra */
+/* font famili diseño de la letra*/
+/* front weigh grosor de laletra */
+/* color ---color de latra */
+/* top--left--right--up para indicar direcciones */
+/* position absolotuve se independiza de cualquier class o etiqueta y se centra en la etiqueta padre princiál  , siemrpre q utilizemos absolute se usa relative*/
+/* padding para referirce al tamaño de las cosas top left reight up */
+/* revisar overflow - hidden oculta los excesos q pueden pasar en una card */
+/* object-fit contain continene la imgagen dentro de una card o cover rellena todo el espacio */
+/* displey flex hace q los articules q estan en modo lista uno bajo de otro pasen a uno al lado de otro */
+/* felx direction colums o row /colums seria columna y row horizontal */
+/* flex direction row-reverse voltea el contenido y lo hace ir de derecha a izquierda */
+/* flez wrap sirve para responsible para adaptar los cards para distintos dispositivos  hace q las cosas mantenga en mismo tamaño cuando agrandas */
+/* justifi conteint por defecto esta en star q seria acomodar las cosas de izquierda a dereccha 
+justify conteint center lo centra y flex end los lleva a la derecha a izquierda  esto funciona siempre y cuando este todo en display flex*/
+/* justyfy content space betwen t acomoda una cosa en cada punta en el caso q sean mas de dos el resto lo centro con todos espacios iguales  */
+/* space around es casi igual q spsce betwen pero separa todo en partes iguales excepto los bordes q son mas chicos */
+/* space evely separa todo incluyendo los borces en partes igual  */
+/* propiedad Gap 20px ejemplo separa las cosas en 20 px o lo q le defina-tenemos row y colum gap */
+/* el flexboc siempre se debe llamar a la etiqueta padreno */
+/* aline items te deja posicionar las cosas de arriba para abajo en flex box */
+
+/* grids q es , max de columna en grid son 12, podemos hace la cantidad de grid q qeranmos */
+/* etiqueta figure q adentro tiene eti IMG y eti Figcaption q seria una imagaen con pie de imagen escrito */
+/* etiqueta video y audio  tengo q utilizar la etiqueta controls adnetro para poder daarle play a los videos o audio*/
+/* etiqueta IFrame youtube-spotify */
+/* maps <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.6959037539873!2d-58.70259952381365!3d-34.48523787299705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2e6f7a9113f%3A0x43daffdf5e689349!2sBernoville%20486%2C%20Ingeniero%20Pablo%20Nogu%C3%A9s%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689530561241!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */
+/* etiqueta FORM formularios  dentro lleva etiquete FIELDSET */
+/*  <form action="">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </fieldset>
+            </form> */
+/*  <form action="">
+                <fieldset>
+                    <legend>contraseña</legend>
+                    <label for="contraseña">Nombre</label>
+                    <input type="password" id="contraseña" placeholder="ingrese usauario>
+                </fieldset>
+            </form> */
+            /* tipo busqeda FORM SEARCH las etiquietas */
+/* :hover{color: color q le va a aprecer a la hora de darle click o entrer
+          text-shador el sonbreado q le va a dar a la hora de pasarle el cursor */
+        /* opacity revisar q hace */
+    /* <div>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre" required>
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer" required>
+    </div> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* esto vamos a usar siempre q vayamos de descktop a mobile en orden decreciente */
+@media (max-width:1500px){
+    /* index */
+    main section div{
+        padding: .625rem .625rem;
+        align-items: center;
+    }
+    .section-div p{
+        width: 40%;
+        padding: 3.125rem 3.125rem;
+        font-size: 1.25rem;
+    }
+    .section-div img{
+        width: 60%;
+        padding: 10px 0rem;
+    }
+    footer div{
+        font-size: .9375rem;
+        padding: .9375rem 1.5625rem;
+    }
+}
+
+@media (max-width:1024px){
+    /* index */
+    header nav{
+        padding: 1.25rem 2.5rem;
+        justify-content: space-between;
+    }
+    .h1-titulo{
+        font-size: 1.25rem;
+    }
+    .div-img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .nav-center{
+        font-size: 1rem;
+        gap: .625rem;
+    }
+    .nav-redes li a img{
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+    main section div{
+        padding: .625rem 1.5625rem;
+    }
+    .section-div p{
+        width: 50%;
+        font-size: 1.25rem;
+    }
+    .section-div img{
+        width: 50%;
+        height: 50%;
+        padding: 10px 10px;
+    }
+    footer div{
+        font-size: .9375rem;
+        padding: .9375rem 1.5625rem;
+    }
+}
+
+@media (max-width:768px){
+    /* index */
+    header nav{
+        justify-content: space-around;
+    }
+    .h1-titulo{
+        font-size: 1.125rem;
+    }
+    .div-img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .nav-center{
+        font-size: 1rem;
+        gap: .625rem;
+    }
+    .nav-redes li a img{
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+    .section-div p{
+        width: 50%;
+        height: 50%;
+        padding: .625rem .625rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width:480px){
+    /* index */
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .h1-titulo{
+        font-size: 1.125rem; 
+    }
+    .div-img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .nav-center{
+        font-size: 1rem;
+        gap: 1.5625rem;
+    }
+    .nav-redes li a img{
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+    main section div{
+        padding: .625rem 1.5625rem;
+        flex-direction: column;
+    }
+    .section-div p{
+        font-size: 1.125rem;
+        width: 100%;
+    }
+    .section-div img{
+        padding: 10px 10px;
+        width: 100%;
+    }
+    footer div{
+        font-size: .9375rem;
+        padding: .9375rem 1.5625rem;
+    }
+}
+
+@media(max-width:375px){
+    /* index */
+    .nav-center{
+    flex-direction: column;
+    }
+    footer div{
+        font-size: .9375rem;
+        padding: .9375rem 1.5625rem;
+    }
+}
+
+@media(max-width:320px){
+    /* index */
+    main section div{
+        padding: 0rem 0rem;
+    }
+    .section-div p{
+        font-size: 1rem;
+    }
+    .section-div img{
+        padding: 10px 10px;
+        width: 100%;
+    }
+    footer div{
+        font-size: .9375rem;
+        padding: .9375rem 1.5625rem;
+    }
+}
+
+
+
+
+
+
+        /* al finla del codigo scs q se nos va a pedir  
+        768PX=> TABLET
+        320px=>modo MOBILE
+        
+        pero vamos  a hacer mas medidas 
+        1024  768  480  375  320*/
