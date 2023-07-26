@@ -14,43 +14,39 @@
 }
 
 /* header */
-header nav {
-    padding: 2.5rem 5rem;
+header nav{
+    width: 100%;
+    padding: .625rem .625rem;
     background-color: #F29F05;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     gap: 1.25rem;
 }
-
 .div-img{
     width: 5rem;
     height: 5rem;
 }
-
 .h1-titulo{
     font-family: 'supermario';
     color: white;
     font-size: 2.1875rem;
 }
-
-.div-titulo a{
+.a-titulo{
     text-decoration: none;
 }
-
 .h1-titulo:hover{
     text-shadow: .3125rem .3125rem .3125rem black;
 }
-
 .nav-center li a{
     text-decoration: none;
     color: white;
-    text-decoration: none;
 }
-
 .nav-center{
     list-style: none;
     display: flex;
-    gap: 1.875rem;
+    justify-content: center;
+    gap: 1.25rem;
     font-family: 'quicksand';
     font-size: 1.25rem;
     font-weight: bolder;
@@ -58,108 +54,88 @@ header nav {
 .nav-center li:hover{
     text-shadow: .3125rem .3125rem .3125rem black;
 }
-
 .nav-redes{
     list-style: none;
     text-decoration: none;
     display: flex;
     gap: .625rem;
 }
-
 .nav-redes li a img{
     width: 1.875rem;
     height: 1.875rem;
 }
 
 /* main index */
-.main-index section div{
+.main-index section{
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 1.25rem 3.125rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 1.25rem;
 }
-
 .section-div p{
-    width: 45%;
-    height: 50%;
-    padding: 100px 100px;
+    padding: .625rem .625rem;
     font-size: 2.5rem;
     font-family: 'quicksand';
 }
-
-.section-div img{
-    width: 50%;
-    height: 50%;
+.section-img img{
+    background-size: contain;
+    width: 100%;
     padding: .625rem .625rem;
 }
 
 /* main solicite su presupuesto */
-.main-presupuesto{
+main{
     width: 100%;
-    height: 100%;
     display: flex;
-    padding: 0rem 1.25rem;
+    padding: 1.25rem 1.25rem;
 }
-.main-presupuesto form fieldset{
+.div-presupuesto img{
+    padding: 0px .625rem;
+}
+.main-form form{
     font-size: 1.25rem;
     font-family: 'quicksand';
-    padding: 1.25rem .625rem;
+    padding: 1.25rem 1.25rem;
     display: flex;
     flex-direction: column;
     background-color: #F2CB05;
-    gap: .625rem;
+    gap: 1.25rem;
 }
-
-.main-presupuesto form{
-    height: 50%;
-    width: 50%;
-    padding: 6.25rem .625rem;
+.form-div-1 input{
+    width: 100%;
 }
-
-.main-presupuesto img{
-    width: 50%;
-    height: 50%;
-    padding: 6.25rem .625rem;
+.form-div-2 input{
+    width: 100%;
 }
-
-.div-mensaje input{
-    display: flex;
-    width: 50rem;
-    height: 25rem;
+.form-div-3 input{
+    width: 100%;
 }
-
-.input-submit:active{
-    background-color: orange;
-    padding: .625rem 18.75rem;
-}
-
-.input-submit{
-    padding: .625rem 18.75rem;
+.form-div-4 textarea{
+    width: 100%;
 }
 
 /* main de quienes somos */
-
 .main-somos{
     width: 100%;
-    height: 100%;
-    padding: 6.25rem 31.25rem 31.25rem 37.5rem;
+    height: 46.875rem;
+    text-align: center;
     font-size: 2.1875rem;
     font-weight: bolder;
     font-family: 'quicksand';
     background-image: url(../assets/img/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equipo-pared-lineas-verdes-rayo-laser-medicion-nivel.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* main de servicios */
-
 .grid-section{
     display: grid;
     width: 100%;
-    padding: 3.125rem;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 5rem 31.25rem 5rem;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 3.75rem 31.25rem 3.75rem;
     grid-template-areas:
     "col1 col2 col3"
     "col4 col5 col6"
@@ -168,7 +144,6 @@ header nav {
     justify-content: center;
     gap: 1.25rem;
 }
-
 .color1{
     grid-area: col1;
     font-family: 'supermario';
@@ -208,12 +183,10 @@ header nav {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 .grid-section a{
     text-decoration: none;
     color: black;
 }
-
 .grid-section a:hover{
     color: orange;
 }
@@ -226,13 +199,12 @@ footer{
     gap: 1.25rem;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 1.25rem;
 }
 footer div h2{
     text-decoration: none;
     font-family: 'supermario';
-    padding-left: 1.25rem;
 }
-
 footer div{
     list-style: none;
     text-decoration: none;
@@ -240,363 +212,199 @@ footer div{
     font-family: 'quicksand';
     font-weight: bolder;
     color: white;
-    padding: 1.25rem 12.5rem;
+    padding: 1.25rem 1.25rem;
 }
 .maps{
     width: 9.375rem;
     height: 9.375rem;
+    padding: 1.25rem 1.25rem;
 }
 
 
-
-
-/* etiqueta border para el grosor de los bordes de cuadros
-etiqueta solid dentro de border y luego los PX ----
-border style bordes con formas
-border color para el color
-border whitdth tamaño
-border radius achica los bordes
-overflow hidden quita los exsecos q se salen de los cuadros
-etiqueta Margin
-
-*/
-/* position relative se utiliza para poder colococar una cosa encima de la otra o superpuestas */
-/* backron-color le da fondo de color por si solo ecepxto q especifique si es para una letr o otra cosa */
-/* text-alingn alinia los textos o los centra o los corres de lugar */
-/* list style le saca los puntos o los asteriscos a las listas */
-/* font size tamamño de la letra */
-/* font famili diseño de la letra*/
-/* front weigh grosor de laletra */
-/* color ---color de latra */
-/* top--left--right--up para indicar direcciones */
-/* position absolotuve se independiza de cualquier class o etiqueta y se centra en la etiqueta padre princiál  , siemrpre q utilizemos absolute se usa relative*/
-/* padding para referirce al tamaño de las cosas top left reight up */
-/* revisar overflow - hidden oculta los excesos q pueden pasar en una card */
-/* object-fit contain continene la imgagen dentro de una card o cover rellena todo el espacio */
-/* displey flex hace q los articules q estan en modo lista uno bajo de otro pasen a uno al lado de otro */
-/* felx direction colums o row /colums seria columna y row horizontal */
-/* flex direction row-reverse voltea el contenido y lo hace ir de derecha a izquierda */
-/* flez wrap sirve para responsible para adaptar los cards para distintos dispositivos  hace q las cosas mantenga en mismo tamaño cuando agrandas */
-/* justifi conteint por defecto esta en star q seria acomodar las cosas de izquierda a dereccha
-justify conteint center lo centra y flex end los lleva a la derecha a izquierda  esto funciona siempre y cuando este todo en display flex*/
-/* justyfy content space betwen t acomoda una cosa en cada punta en el caso q sean mas de dos el resto lo centro con todos espacios iguales  */
-/* space around es casi igual q spsce betwen pero separa todo en partes iguales excepto los bordes q son mas chicos */
-/* space evely separa todo incluyendo los borces en partes igual  */
-/* propiedad Gap 20px ejemplo separa las cosas en 20 px o lo q le defina-tenemos row y colum gap */
-/* el flexboc siempre se debe llamar a la etiqueta padreno */
-/* aline items te deja posicionar las cosas de arriba para abajo en flex box */
-
-/* grids q es , max de columna en grid son 12, podemos hace la cantidad de grid q qeranmos */
-/* etiqueta figure q adentro tiene eti IMG y eti Figcaption q seria una imagaen con pie de imagen escrito */
-/* etiqueta video y audio  tengo q utilizar la etiqueta controls adnetro para poder daarle play a los videos o audio*/
-/* etiqueta IFrame youtube-spotify */
-/* maps <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.6959037539873!2d-58.70259952381365!3d-34.48523787299705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2e6f7a9113f%3A0x43daffdf5e689349!2sBernoville%20486%2C%20Ingeniero%20Pablo%20Nogu%C3%A9s%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689530561241!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */
-/* etiqueta FORM formularios  dentro lleva etiquete FIELDSET */
-/*  <form action="">
-                <fieldset>
-                    <legend>Datos personales</legend>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre">
-                </fieldset>
-            </form> */
-/*  <form action="">
-                <fieldset>
-                    <legend>contraseña</legend>
-                    <label for="contraseña">Nombre</label>
-                    <input type="password" id="contraseña" placeholder="ingrese usauario>
-                </fieldset>
-            </form> */
-            /* tipo busqeda FORM SEARCH las etiquietas */
-/* :hover{color: color q le va a aprecer a la hora de darle click o entrer
-          text-shador el sonbreado q le va a dar a la hora de pasarle el cursor */
-        /* opacity revisar q hace */
-    /* <div>
-        <label for="hombre">Hombre</label>
-        <input type="radio" id="hombre" name="sexo" value="hombre" required>
-        <label for="mujer">Mujer</label>
-        <input type="radio" id="mujer" name="sexo" value="mujer" required>
-    </div> */
-
-    /* pseudoclases
-    .navbar li a:hover{ */
-        /* button:active */
-        /* input:focus  box shadows backround color es para q cuando mantengas apretado algo dentro de un formulario tome color  */
-        /* .class p:first-child{
-            color
-            font size
-            font weicg     esta etiqueta sirve para llamar a uno por uno para modificarlos dentro de un lista para no tener q generarle una class a cada uno  */
-        /* .texto p:last child{     para llamar al ultimo de la listya*/
-        /* .text p:nth-child(numero){    para llamar especificamente por numero */
-        /* pseudoclase visited    es para cuando ya cliqueas  a una pagina t cambie el color q diga q ya visitaste esa pagina */
-        /* .texto p:not(numero)  es para agarrar una lista entera de parrafos excepto menos la etiqueta q marquemos */
-        /* pseduelementos
-            sectiom class:"pseudoelemento"
-                p: campeones */
-        /* .pseudoelemento p::before
-            content: "mess"
-            collor:
-            fontt size                   de esta manera con esta pseudocalse genero un taxto antes de q aparezca el parrafo desde el css
-        .pseudoelemento p::after{
-            content: "del mundo"
-            color:
-            font size              esto es para q aparezca el texto al finla del p al hacerle click*/
-        /*.pseudoelemtno p::first-letter{
-            color:
-            backroun color
-            font size:                      esta etiqueta sirve para cambiar la primera letra del parrafo paara hace una especie de mayuscula mas grande o de color*/
-        /* <p>Lorem ipsum dolor, <br>(etiqueta br es para hacer un punto y aparte)    sit amet consectetur adipisicing elit. Animi, nam! Nobis dolorum at recusandae eius, beatae laboriosam fugiat! Dolor quia culpa exercitationem enim ipsum ad sequi architecto corrupti natus tempora?</p> */
-    /* pseudoelemtno p::selection{
-        backround color
-        color                    sirvev para q cuando le agammos click y lo mantegnamos apretados para marcar varias cosas cambier el color del contenido tanto color como tamaño*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* esto vamos a usar siempre q vayamos de descktop a mobile en orden decreciente */
+/* inicio del mediaquery */
 @media (max-width:1500px){
-    /* index */
-    main section div{
-        padding: .625rem .625rem;
-        align-items: center;
-    }
-    .section-div p{
-        width: 40%;
-        padding: 3.125rem 3.125rem;
-        font-size: 1.25rem;
-    }
-    .section-div img{
-        width: 60%;
-        padding: 10px 0rem;
-    }
-    footer div{
-        font-size: .9375rem;
-        padding: .9375rem 1.5625rem;
-    }
-    /* main servicios */
-    .grid-section{
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 5rem 18.75rem 5rem;
-    }
-}
 
-@media (max-width:1024px){
     /* header */
     header nav{
-        padding: 1.25rem 2.5rem;
-        justify-content: space-between;
-    }
-    .h1-titulo{
-        font-size: 1.25rem;
-    }
-    .div-img{
-        width: 5rem;
-        height: 5rem;
-    }
-    .nav-center{
-        font-size: 1rem;
-        gap: .625rem;
-    }
-    .nav-redes li a img{
-        width: 1.125rem;
-        height: 1.125rem;
-    }
-    /* main index */
-    main section div{
-        padding: .625rem 1.5625rem;
-    }
-    .section-div p{
-        width: 50%;
-        font-size: 1.25rem;
-    }
-    .section-div img{
-        width: 50%;
-        height: 50%;
-        padding: 10px 10px;
-    }
-    /* main servicios */
-    .grid-section{
-        grid-template-rows: 5rem 12.5rem 5rem;
-    }
-    /* main presupuesto */
-    .main-presu div img{
-        width: 43.75rem;
-        height: 43.75rem;
-    }
-        .main-presupuesto{
         flex-direction: column;
     }
-    .main-presupuesto form{
-        height: 80%;
-        width: 80%;
-        padding: .625rem .625rem;
-    }
-    .main-presupuesto img{
-        width: 80%;
-        height: 80%;
-        padding: 6.25rem .625rem;
-    }
-    .div-mensaje input{
-        width: 31.25rem;
-        height: 12.5rem;
-    }
-    .input-submit:active{
-        padding: .625rem 12.5rem;
-    }
-    
-    .input-submit{
-        padding: .625rem 12.5rem;
-    }
-}
-
-@media (max-width:768px){
-    /* header */
-    header nav{
-        justify-content: space-around;
-    }
     .h1-titulo{
-        font-size: 1.125rem;
-    }
-    .div-img{
-        width: 4rem;
-        height: 4rem;
+        font-size: 1.875rem;
     }
     .nav-center{
-        font-size: 1rem;
-        gap: .625rem;
-    }
-    .nav-redes li a img{
-        width: 1.125rem;
-        height: 1.125rem;
+        font-size: 1.125rem;
     }
     /* main index */
+    .main-index section{
+        flex-direction: column;
+    }
+
     .section-div p{
-        width: 50%;
-        height: 50%;
-        padding: .625rem .625rem;
-        font-size: 1.25rem;
+        text-align: center;
+        font-size: 1.875rem;
     }
-    /* main servicios */
+
+    .section-img img{
+        padding: .625rem 3.125rem;
+    }
+    /*main servicios  */
     .grid-section{
-    padding: 1.25rem 1.25rem;
+        grid-template-rows: 1.875rem 28.125rem 1.875rem;
     }
-    .grid-section a{
-        font-size: 1.5625rem;
+    /* main presupuesto */
+    .main-presupuesto{
+        flex-direction: column;
+        gap: .625rem;
+    }
+    .div-presupuesto{
+        display: flex;
+        justify-content: center;
+    }
+    .div-presupuesto img{
+        width: 90%;
+    }
+
+    /* footer */
+    footer div{
         padding: .3125rem .3125rem;
     }
 }
 
-@media(max-width:480px){
+@media (max-width:1024px){
+
     /* header */
-    header nav{
-        flex-direction: column;
-        align-items: center;
-    }
     .h1-titulo{
-        font-size: 1.125rem;
-    }
-    .div-img{
-        width: 4rem;
-        height: 4rem;
+        font-size: 1.5625rem;
     }
     .nav-center{
         font-size: 1rem;
-        gap: 1.5625rem;
     }
-    .nav-redes li a img{
-        width: 1.125rem;
-        height: 1.125rem;
+     /* main index */
+    .section-div p{
+        font-size: 1.5625rem;
+    }
+    .section-img img{
+        padding: .625rem .625rem;
+    }
+    /*main servicios  */
+    .grid-section{
+        grid-template-rows: 1.25rem 25rem 1.25rem;
+    }
+    .color1{
+        font-size: 1.5625rem;
+    }
+    .color2{
+        font-size: 1.5625rem;
+    }
+    .color3{
+        font-size: 1.5625rem;
+    }
+
+    /* main de quienes somos */
+    .main-somos{
+        height: 31.25rem;
+        font-size: 1.5rem;
+    }
+    /* main presupuesto */
+    .div-presupuesto img{
+        width: 80%;
+    }
+    .main-form form{
+        font-size: 1.125rem;
+    }
+    /* footer */
+    footer div{
+        font-size: 16px
+    }
+    footer div h2{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width:768px){
+
+    /* header */
+    .nav-center{
+        flex-direction: column ;
     }
     /* main index */
-    main section div{
-        padding: .625rem 1.5625rem;
-        flex-direction: column;
-    }
     .section-div p{
         font-size: 1.125rem;
-        width: 100%;
     }
-    .section-div img{
-        padding: 10px 10px;
-        width: 100%;
+    /* main de quienes somos */
+        .main-somos{
+            height: 25rem;
+        font-size: 1.25rem;
     }
     /* main servicios */
-        .grid-section a{
-        font-size: 1.5625rem;
-        padding: 3.125rem .3125rem;
-        align-items: center;
+    .grid-section{
+        grid-template-columns: 100%;
+        grid-template-rows: 3.125rem 43.75rem 3.125rem 43.75rem 3.125rem 43.75rem;
+        grid-template-areas:
+        "col1"
+        "col4"
+        "col2"
+        "col5"
+        "col3"
+        "col6"
+        ;
+    }
+    /* main presupuesto */
+    .div-presupuesto img{
+        width: 90%;
         }
-        /* main presupuesto */
-        .main-presu div img{
-            width: 100%;
-            height: 60%;
-        }
-        .div-mensaje input{
-            width: 12.5rem;
-            height: 6.25rem;
-        }
-        .input-submit:active{
-            padding: .625rem 6.25rem;
-        }
-        .input-submit{
-            padding: .625rem 6.25rem;
-        }
+    .main-form form{
+        font-size: 1rem;
+    }
     /* footer */
     footer{
-    flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:480px){
+
+    /* main index */
+    .section-div p{
+        padding: .3125rem .3125rem;
+    }
+    /* main de quienes somos */
+    .main-somos{
+        height: 21.875rem;
+        font-size: .875rem;
+    }
+    /* main servicios */
+    .grid-section{
+        grid-template-rows: 2.5rem 31.25rem 2.5rem 31.25rem 2.5rem 31.25rem;
     }
 }
 
 @media(max-width:375px){
-    /* header */
-    .nav-center{
-    flex-direction: column;
+
+    /* main servicios */
+    .grid-section{
+        grid-template-rows: 1.875rem 25rem 1.875rem 25rem 1.875rem 25rem;
+    }
+
+    /* main presupuesto */
+    .div-presupuesto img{
+        width: 100%;
+    }
+    /* footer */
+    footer div{
+        font-size: .875rem
+    }
+    footer div h2{
+        font-size: 1.125rem;
     }
 }
 
 @media(max-width:320px){
     /* main index */
-    main section div{
-        padding: 0rem 0rem;
-    }
     .section-div p{
         font-size: 1rem;
     }
-    .section-div img{
-        padding: 10px 10px;
-        width: 100%;
-    }
 }
-
-
-
 
 
 
