@@ -1,0 +1,33 @@
+.main-index{
+    display: flex;
+    width: 100%;
+    .section-1{
+        padding: 5rem 6.25rem;
+        display: flex;
+        width: 50%;
+        .main-parrafo{
+            border-style: outset;
+            border-width: .3125rem;
+            font-weight: bolder;
+            font-size: 1.625rem;
+            font-family: "quicksand";
+            color: $color-text-secundario;
+            padding: 6.25rem 6.25rem;
+        }
+    }
+}
+.carousel-inner{
+    div{
+        p{
+            font-size: 1.875rem;
+        }
+    }
+}
+.carousel-item{
+    div{
+        p{
+            font-size: 1.875rem;
+        }
+    }
+}
+

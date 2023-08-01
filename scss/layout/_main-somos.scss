@@ -1,0 +1,24 @@
+.main-somos{
+    section{
+        background-image: url(../assets/img/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equipo-pared-lineas-verdes-rayo-laser-medicion-nivel.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 50rem;
+        text-align: center;
+        font-size: 1.5625rem;
+        font-weight: bolder;
+        font-family: "quicksand";
+        color: $color-text-secundario;
+        padding: 3.125rem 31.25rem 3.125rem 31.25rem;
+        button{
+            background-color: lightcoral;
+            border: none;
+            margin-top: 6.25rem;
+            padding: 1rem 2rem;
+            color: $color-text-principal;
+            position: relative;
+        }
+    }
+}

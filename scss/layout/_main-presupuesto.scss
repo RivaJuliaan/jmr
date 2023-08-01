@@ -1,0 +1,41 @@
+.main-presupuesto{
+    width: 100%;
+    display: flex;
+    padding: 1.25rem 1.25rem;
+    .div-presupuesto img{
+        padding: 0px .625rem;
+    }
+    .main-form{
+        form{
+            fieldset{
+                font-size: 1.25rem;
+                font-family: 'quicksand';
+                padding: 1.25rem 1.25rem;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(255, 217, 0);
+                gap: 1.25rem;
+                color: $color-text-secundario;
+            }
+            input{
+                width: 100%;
+            }
+        }
+    }
+}
+.form-div-1{
+    input{
+        width: 100%;
+    }
+}
+.form-div-2{
+    @extend .form-div-1;
+}
+.form-div-3{
+    @extend .form-div-1;
+}
+.form-div-4{
+    textarea{
+        width: 100%;
+    }
+}

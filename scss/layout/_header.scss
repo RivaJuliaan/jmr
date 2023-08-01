@@ -1,0 +1,47 @@
+header{
+    background-color: $backround-pincipal;
+    padding: 0rem 1.25rem;
+    width: 100%;
+    nav{
+        @include flex(row,nowrap,space-between,center);
+        .div-titulo{
+            img{
+                width: 6.25rem;
+                height: 6.25rem;
+            }
+            a{
+                font-family: "supermario";
+                color: $color-text-principal;
+                text-decoration: none;
+                &:hover{
+                    text-shadow: .3125rem .3125rem .3125rem black;
+                }
+                
+            }
+        }
+        .div-nav{
+            ul{
+                list-style: none;
+                font-family: "quicksand";
+                @include flex(row,nowrap,center,center);
+                gap: 3.125rem;
+                li{
+                    a{
+                        font-size: 1.25rem;
+                        color: $color-text-principal;
+                        text-decoration: none;
+                        font-weight: bolder;
+                        &:hover{
+                            text-shadow: .3125rem .3125rem .3125rem black;
+                    }
+                    }
+                }
+            }
+        }
+        .div-redes ul{
+            list-style: none;
+            gap: 1.25rem;
+            @include flex (row,nowrap,none,center);
+        }
+    }
+}

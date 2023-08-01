@@ -1,0 +1,125 @@
+@media (max-width:1500px){
+    header{
+        nav{
+            flex-direction: column;
+        }
+    }
+    h1{
+        font-size: 1.5625rem
+    }
+
+
+    footer{
+        height: 18.75rem;
+        .div-datos{
+            p{
+                font-size: 1.25rem;
+                margin-left: 1.25rem;
+            }
+            ul{
+                list-style: none;
+                margin-left: 1.25rem;
+                font-size: 1.125rem;
+            }
+        }
+        .footer-redes{
+            ul{
+                gap: 1.875rem;
+            }
+        }
+    }
+
+
+    .main-index{
+        .section-1{
+            padding: 1.875rem 1.875rem;
+            align-items: center;
+            .main-parrafo{
+                font-size: 1.25rem;
+                padding: 1.875rem 1.875rem;
+                text-align: center;
+            }
+        }
+    }
+    .carousel-inner{
+        div{
+            p{
+                font-size: 1.25rem;
+            }
+        }
+    }
+    .carousel-item{
+        div{
+            p{
+                font-size: 1.25rem
+            }
+        }
+    }
+
+
+    .main-somos{
+        section{
+            height: 37.5rem;
+            font-size: 1.125rem;
+            padding: 1.25rem 11.25rem 1.25rem 12.5rem;
+            button{
+                margin-top: 3.125rem;
+                padding: 1rem 1.5625rem;
+            }
+        }
+    }
+
+
+    .grid-section{
+        grid-template-rows: 1.875rem 28.125rem 1.875rem;
+        a{
+            margin-top: .625rem;
+        }
+        .color1{
+            h2{
+                font-size: 1.5625rem;
+            }
+        }
+        .color2{
+            h3{
+                font-size: 1.5625rem;
+            }
+        }
+        .color3{
+            h4{
+                font-size: 1.5625rem;
+            }
+        }
+    }
+
+
+
+    .main-presupuesto{
+        padding: 1.25rem .625rem;
+        .div-presupuesto img{
+            padding: 0px .625rem;
+            width: 100%
+        }
+        .main-form{
+            form{
+                fieldset{
+                    font-size: 1.125rem;
+                    padding: 1.25rem 1.25rem;
+                }
+            }
+        }
+    }
+
+
+    .grid-section-obras{
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: repeat(4,31.25rem);
+        grid-template-areas:
+        "col1 col2 col3"
+        "col4 col5 col6"
+        "col7 col8 col9" 
+        "col10 col11 col12"
+        ;
+        padding: 1.875rem 1.875rem;
+        }
+}   

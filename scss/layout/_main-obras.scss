@@ -1,0 +1,97 @@
+.grid-section-obras{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,31.25rem);
+    justify-content: space-around;
+    grid-template-areas:
+    "col1 col2 col3 col4"
+    "col5 col6 col7 col8"
+    "col9 col10 col11 col12"
+    ;
+    padding: 3.125rem 3.125rem;
+    .color1{
+        grid-area: col1;
+        background-image: url(../assets/img/9.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color2{
+        grid-area: col2;
+        background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.19.35\ PM.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color3{
+        grid-area: col3;
+        background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.10.45\ PM.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color4{
+        grid-area: col4;
+        background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.10.45\ PM\ \(1\).jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color5{
+        grid-area: col5;
+        background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.10.44\ PM.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color6{
+        grid-area: col6;
+        background-image: url(../assets/img/eee5934b4c4432455750b4faa4984575\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color7{
+        grid-area: col7;
+        background-image: url(../assets/img/5b5211919d8b6c95e4cc53ff363d52a8.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color8{
+        grid-area: col8;
+        background-image: url(../assets/img/8.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color9{
+        grid-area: col9;
+        background-image: url(../assets/img/99.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color10{
+        grid-area: col10;
+        background-image: url(../assets/img/10.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color11{
+        grid-area: col11;
+        background-image: url(../assets/img/11.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color12{
+        grid-area: col12;
+        background-image: url(../assets/img/122.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
