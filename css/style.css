@@ -13,7 +13,8 @@
 }
 
 header {
-  background-color: orange;
+  background: rgb(255, 235, 0);
+  background: linear-gradient(90deg, rgb(255, 235, 0) 7%, rgb(252, 178, 0) 33%, rgb(255, 0, 0) 100%);
   padding: 0rem 1.25rem;
   width: 100%;
 }
@@ -92,8 +93,8 @@ header nav .div-redes ul {
   font-size: 1.875rem;
 }
 
-.main-somos section {
-  background-image: url(../assets/img/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equipo-pared-lineas-verdes-rayo-laser-medicion-nivel.jpg);
+.main-somos {
+  background-image: url(https://i.postimg.cc/x1YDr7nV/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equi.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,7 +107,7 @@ header nav .div-redes ul {
   color: black;
   padding: 3.125rem 31.25rem 3.125rem 31.25rem;
 }
-.main-somos section button {
+.main-somos button {
   background-color: lightcoral;
   border: none;
   margin-top: 6.25rem;
@@ -115,14 +116,39 @@ header nav .div-redes ul {
   position: relative;
 }
 
+.section-2 p {
+  text-align: center;
+  font-family: "quicksand";
+  padding: 3.125rem;
+  font-size: 1.875rem;
+}
+.section-2 .shadow {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background-image: url(https://i.postimg.cc/T3p2qfCG/jrrr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-2 .p-2 {
+  text-align: left;
+}
+
+h5 {
+  text-align: center;
+  font-family: "quicksand";
+  font-size: 1.875rem;
+  padding: 1.875rem;
+}
+
 .grid-section {
   display: grid;
   width: 100%;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: 3.75rem 31.25rem 3.75rem;
-  grid-template-areas: "col1 col2 col3" "col4 col5 col6" "col4 col5 col6";
+  grid-template-areas: "col1 col2 col3" "col4 col5 col6";
   justify-content: center;
-  gap: 1.25rem;
 }
 .grid-section a {
   text-decoration: none;
@@ -154,18 +180,18 @@ header nav .div-redes ul {
 }
 .grid-section .color4, .grid-section .color6, .grid-section .color5 {
   grid-area: col4;
-  background-image: url(../assets/img/d883d4c0-ba9d-4f64-b32b-a4c261a596b7.jpeg);
+  background-image: url(https://i.postimg.cc/d0HzyVdJ/piso-4.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .grid-section .color5 {
   grid-area: col5;
-  background-image: url(../assets/img/56241009-3f6a-4c7d-a0f5-e0b0d687e00a.jpeg);
+  background-image: url(https://i.postimg.cc/hvVTs4rQ/56241009-3f6a-4c7d-a0f5-e0b0d687e00a.jpg);
 }
 .grid-section .color6 {
   grid-area: col6;
-  background-image: url(../assets/img/cdf524ed-724d-46e9-93b9-6b1a392c3d38.jpeg);
+  background-image: url(https://i.postimg.cc/V6xXX0jc/9f32ea5f-f464-4aee-9c20-debf3a70a10c.jpg);
 }
 
 .main-presupuesto {
@@ -198,95 +224,164 @@ header nav .div-redes ul {
   width: 100%;
 }
 
-.grid-section-obras {
+.main-obras p {
+  margin-left: 3.125rem;
+  margin-top: 1.875rem;
+  align-items: center;
+  font-size: 1.875rem;
+}
+
+.grid-section-obras-1 {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(3, 31.25rem);
-  justify-content: space-around;
-  grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25rem;
+  justify-content: center;
+  grid-template-areas: "col1 col2 col3 col4 col5 col6";
   padding: 3.125rem 3.125rem;
 }
-.grid-section-obras .color1, .grid-section-obras .grid-section .color2, .grid-section .grid-section-obras .color2, .grid-section-obras .grid-section .color3, .grid-section .grid-section-obras .color3 {
+.grid-section-obras-1 .color1, .grid-section-obras-1 .grid-section .color2, .grid-section .grid-section-obras-1 .color2, .grid-section-obras-1 .grid-section .color3, .grid-section .grid-section-obras-1 .color3 {
   grid-area: col1;
-  background-image: url(../assets/img/9.jpg);
+  background-image: url(https://i.postimg.cc/HsbDhHGt/piso-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color2 {
+.grid-section-obras-1 .color2 {
   grid-area: col2;
-  background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.19.35\ PM.jpeg);
+  background-image: url(https://i.postimg.cc/fRK4MKRt/piso-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color3 {
+.grid-section-obras-1 .color3 {
   grid-area: col3;
-  background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.10.45\ PM.jpeg);
+  background-image: url(https://i.postimg.cc/Ls6c51Jy/piso-3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color4, .grid-section-obras .grid-section .color5, .grid-section .grid-section-obras .color5, .grid-section-obras .grid-section .color6, .grid-section .grid-section-obras .color6 {
+.grid-section-obras-1 .color4, .grid-section-obras-1 .grid-section .color5, .grid-section .grid-section-obras-1 .color5, .grid-section-obras-1 .grid-section .color6, .grid-section .grid-section-obras-1 .color6 {
   grid-area: col4;
-  background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.10.45\ PM\ \(1\).jpeg);
+  background-image: url(https://i.postimg.cc/d0HzyVdJ/piso-4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color5 {
+.grid-section-obras-1 .color5 {
   grid-area: col5;
-  background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-15\ at\ 6.10.44\ PM.jpeg);
+  background-image: url(https://i.postimg.cc/xCXByVyM/piso-5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color6 {
+.grid-section-obras-1 .color6 {
   grid-area: col6;
-  background-image: url(../assets/img/eee5934b4c4432455750b4faa4984575\ \(1\).jpg);
+  background-image: url(https://i.postimg.cc/QtvwfY0P/piso-6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color7 {
-  grid-area: col7;
-  background-image: url(../assets/img/5b5211919d8b6c95e4cc53ff363d52a8.jpg);
+
+.grid-section-obras-2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25rem;
+  justify-content: center;
+  grid-template-areas: "col1 col2 col3 col4 col5 col6";
+  padding: 3.125rem 3.125rem;
+}
+.grid-section-obras-2 .color1, .grid-section-obras-2 .grid-section .color2, .grid-section .grid-section-obras-2 .color2, .grid-section-obras-2 .grid-section .color3, .grid-section .grid-section-obras-2 .color3 {
+  grid-area: col1;
+  background-image: url(https://i.postimg.cc/yxwQTJYz/paredes-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color8 {
-  grid-area: col8;
-  background-image: url(../assets/img/8.jpg);
+.grid-section-obras-2 .color2 {
+  grid-area: col2;
+  background-image: url(https://i.postimg.cc/63qMJV8X/paredes-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color9 {
-  grid-area: col9;
-  background-image: url(../assets/img/99.jpg);
+.grid-section-obras-2 .color3 {
+  grid-area: col3;
+  background-image: url(https://i.postimg.cc/9XRjyZJK/paredes-3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color10 {
-  grid-area: col10;
-  background-image: url(../assets/img/10.jpg);
+.grid-section-obras-2 .color4, .grid-section-obras-2 .grid-section .color5, .grid-section .grid-section-obras-2 .color5, .grid-section-obras-2 .grid-section .color6, .grid-section .grid-section-obras-2 .color6 {
+  grid-area: col4;
+  background-image: url(https://i.postimg.cc/RCkxdhYF/paredes-4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color11 {
-  grid-area: col11;
-  background-image: url(../assets/img/11.jpg);
+.grid-section-obras-2 .color5 {
+  grid-area: col5;
+  background-image: url(https://i.postimg.cc/hhWsdHpD/paredes-5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.grid-section-obras .color12 {
-  grid-area: col12;
-  background-image: url(../assets/img/122.jpg);
+.grid-section-obras-2 .color6 {
+  grid-area: col6;
+  background-image: url(https://i.postimg.cc/NMnpgyXr/paredes-6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-section-obras-3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25rem;
+  justify-content: center;
+  grid-template-areas: "col1 col2 col3 col4 col5 col6";
+  padding: 3.125rem 3.125rem;
+}
+.grid-section-obras-3 .color1, .grid-section-obras-3 .grid-section .color2, .grid-section .grid-section-obras-3 .color2, .grid-section-obras-3 .grid-section .color3, .grid-section .grid-section-obras-3 .color3 {
+  grid-area: col1;
+  background-image: url(https://i.postimg.cc/MGd9F3K5/mesada-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-section-obras-3 .color2 {
+  grid-area: col2;
+  background-image: url(https://i.postimg.cc/RC8DmY1b/mesada-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-section-obras-3 .color3 {
+  grid-area: col3;
+  background-image: url(https://i.postimg.cc/TPRkQvGh/mesada-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-section-obras-3 .color4, .grid-section-obras-3 .grid-section .color5, .grid-section .grid-section-obras-3 .color5, .grid-section-obras-3 .grid-section .color6, .grid-section .grid-section-obras-3 .color6 {
+  grid-area: col4;
+  background-image: url(https://i.postimg.cc/ZKdD5LVY/mesada-4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-section-obras-3 .color5 {
+  grid-area: col5;
+  background-image: url(https://i.postimg.cc/qvcb8MP9/mesada-5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-section-obras-3 .color6 {
+  grid-area: col6;
+  background-image: url(https://i.postimg.cc/K8hpkgHP/mesada-6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -365,20 +460,21 @@ footer .footer-redes ul {
   .carousel-item div p {
     font-size: 1.25rem;
   }
-  .main-somos section {
+  .main-somos {
     height: 37.5rem;
     font-size: 1.125rem;
     padding: 1.25rem 11.25rem 1.25rem 12.5rem;
   }
-  .main-somos section button {
+  .main-somos button {
     margin-top: 3.125rem;
     padding: 1rem 1.5625rem;
   }
+  h5 {
+    font-size: 1.375rem;
+    padding: 1.25rem;
+  }
   .grid-section {
     grid-template-rows: 1.875rem 28.125rem 1.875rem;
-  }
-  .grid-section a {
-    margin-top: 0.625rem;
   }
   .grid-section .color1 h2, .grid-section .color2 h2, .grid-section .color3 h2 {
     font-size: 1.5625rem;
@@ -400,11 +496,28 @@ footer .footer-redes ul {
     font-size: 1.125rem;
     padding: 1.25rem 1.25rem;
   }
-  .grid-section-obras {
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(4, 31.25rem);
-    grid-template-areas: "col1 col2 col3" "col4 col5 col6" "col7 col8 col9" "col10 col11 col12";
-    padding: 1.875rem 1.875rem;
+  .main-obras p {
+    margin-left: 2.5rem;
+    margin-top: 1.875rem;
+    font-size: 1.875rem;
+  }
+  .grid-section-obras-1 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15.625rem 15.625rem;
+    grid-template-areas: "col1 col2 col3" "col4 col5 col6";
+    padding: 2.5rem 2.5rem;
+  }
+  .grid-section-obras-2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15.625rem 15.625rem;
+    grid-template-areas: "col1 col2 col3" "col4 col5 col6";
+    padding: 2.5rem 2.5rem;
+  }
+  .grid-section-obras-3 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15.625rem 15.625rem;
+    grid-template-areas: "col1 col2 col3" "col4 col5 col6";
+    padding: 2.5rem 2.5rem;
   }
 }
 @media (max-width: 1024px) {
@@ -432,11 +545,6 @@ footer .footer-redes ul {
   .main-presupuesto .div-presupuesto img {
     padding: 1.25rem 0.625rem;
   }
-  .grid-section-obras {
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(4, 21.875rem);
-    padding: 1.25rem 1.25rem;
-  }
   footer {
     flex-direction: column;
     height: 100%;
@@ -463,16 +571,30 @@ footer .footer-redes ul {
   header nav .div-nav ul li a {
     font-size: 1.125rem;
   }
-  .main-somos section {
+  .main-somos {
     padding: 1.25rem 2.5rem 1.25rem 2.5rem;
   }
-  .main-somos section button {
+  .main-somos button {
     margin-top: 1.875rem;
     padding: 0.875rem 1.375rem;
   }
+  .section-2 p {
+    font-size: 1.375rem;
+  }
+  .section-2 .shadow {
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 50%;
+  }
+  .section-2 .p-2 {
+    font-size: 1.375rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
   .grid-section {
     grid-template-columns: 100%;
-    grid-template-rows: 3.125rem 43.75rem 3.125rem 43.75rem 3.125rem 43.75rem;
+    grid-template-rows: 4.375rem 43.75rem 4.375rem 43.75rem 4.375rem 43.75rem;
     grid-template-areas: "col1" "col4" "col2" "col5" "col3" "col6";
   }
   .main-presupuesto {
@@ -481,11 +603,22 @@ footer .footer-redes ul {
   .main-presupuesto .div-presupuesto img {
     padding: 0px 0rem;
   }
-  .grid-section-obras {
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(4, 15.625rem);
-    grid-template-areas: "col1 col2 col3" "col4 col5 col6" "col7 col8 col9" "col10 col11 col12";
-    padding: 0.625rem 0.625rem;
+  .main-obras p {
+    margin-left: 1.875rem;
+    margin-top: 1.875rem;
+    font-size: 1.375rem;
+  }
+  .grid-section-obras-1 {
+    grid-template-rows: 12.5rem 12.5rem;
+    padding: 1.875rem 1.875rem;
+  }
+  .grid-section-obras-2 {
+    grid-template-rows: 12.5rem 12.5rem;
+    padding: 1.875rem 1.875rem;
+  }
+  .grid-section-obras-3 {
+    grid-template-rows: 12.5rem 12.5rem;
+    padding: 1.875rem 1.875rem;
   }
 }
 @media (max-width: 480px) {
@@ -508,36 +641,37 @@ footer .footer-redes ul {
   .main-index .section-1 .main-parrafo {
     font-size: 1rem;
   }
-  .main-somos section {
+  .main-somos {
     padding: 0.625rem 0.625rem;
     font-size: 1rem;
   }
-  .main-somos section button {
+  .main-somos button {
     margin-top: 1.875rem;
     padding: 0.875rem 1.375rem;
   }
   .grid-section {
-    grid-template-rows: 1.875rem 31.25rem 1.875rem 31.25rem 1.875rem 31.25rem;
+    grid-template-rows: 4.375rem 31.25rem 4.375rem 31.25rem 4.375rem 31.25rem;
   }
-  .grid-section a {
-    margin-top: 1.25rem;
+  .grid-section-obras-1 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 12.5rem 12.5rem 12.5rem;
+    grid-template-areas: "col1 col2" "col3 col4" "col5 col6";
+    padding: 0rem;
   }
-  .grid-section-obras {
-    grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(6, 15.625rem);
-    grid-template-areas: "col1 col2" "col3 col4" "col5 col6" "col7 col8" "col9 col10" "col11 col12";
-    padding: 0.3125rem 0.3125rem;
+  .grid-section-obras-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 12.5rem 12.5rem 12.5rem;
+    grid-template-areas: "col1 col2" "col3 col4" "col5 col6";
+    padding: 0rem;
+  }
+  .grid-section-obras-3 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 12.5rem 12.5rem 12.5rem;
+    grid-template-areas: "col1 col2" "col3 col4" "col5 col6";
+    padding: 0rem;
   }
   .main-presupuesto .main-form form fieldset {
     padding: 1.25rem 1.25rem;
-  }
-}
-@media (max-width: 375px) {
-  .grid-section-obras {
-    grid-template-columns: 90%;
-    grid-template-rows: repeat(12, 18.75rem);
-    grid-template-areas: "col1" "col2" "col3" "col4" "col5" "col6" "col7" "col8" "col9" "col10" "col11" "col12";
-    padding: 0.3125rem 0.3125rem;
   }
 }
 

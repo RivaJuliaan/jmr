@@ -1,3 +1,11 @@
+h5{
+    text-align: center;
+    font-family: "quicksand";
+    font-size: 1.875rem;
+    padding: 1.875rem;
+}
+
+
 .grid-section{
     display: grid;
     width: 100%;
@@ -6,10 +14,8 @@
     grid-template-areas:
     "col1 col2 col3"
     "col4 col5 col6"
-    "col4 col5 col6"
     ;
     justify-content: center;
-    gap: 1.25rem;
     a{
         text-decoration: none;
         color: $color-text-secundario;
@@ -42,7 +48,7 @@
     }
     .color4{
         grid-area: col4;
-        background-image: url(../assets/img/d883d4c0-ba9d-4f64-b32b-a4c261a596b7.jpeg);
+        background-image: url(https://i.postimg.cc/d0HzyVdJ/piso-4.jpg);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -50,12 +56,12 @@
     .color5{
         @extend .color4;
         grid-area: col5;
-        background-image: url(../assets/img/56241009-3f6a-4c7d-a0f5-e0b0d687e00a.jpeg);
+        background-image: url(https://i.postimg.cc/hvVTs4rQ/56241009-3f6a-4c7d-a0f5-e0b0d687e00a.jpg);
 
     }
     .color6{
         @extend .color4;
         grid-area: col6;
-        background-image: url(../assets/img/cdf524ed-724d-46e9-93b9-6b1a392c3d38.jpeg);
+        background-image: url(https://i.postimg.cc/V6xXX0jc/9f32ea5f-f464-4aee-9c20-debf3a70a10c.jpg);
     }
 }

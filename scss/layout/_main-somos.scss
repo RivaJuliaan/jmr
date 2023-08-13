@@ -1,24 +1,42 @@
 .main-somos{
-    section{
-        background-image: url(../assets/img/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equipo-pared-lineas-verdes-rayo-laser-medicion-nivel.jpg);
-        background-size: cover;
+    background-image: url(https://i.postimg.cc/x1YDr7nV/medicion-laser-renovacion-bano-maestro-ajusta-nivel-herramientas-construccion-adhesivo-azulejos-equi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+        text-align: center;
+    font-size: 1.5625rem;
+    font-weight: bolder;
+    font-family: "quicksand";
+    color: $color-text-secundario;
+    padding: 3.125rem 31.25rem 3.125rem 31.25rem;
+    button{
+        background-color: lightcoral;
+        border: none;
+        margin-top: 6.25rem;
+        padding: 1rem 2rem;
+        color: $color-text-principal;
+        position: relative;
+    }
+}
+.section-2{
+    p{
+        text-align: center;
+        font-family: "quicksand";
+        padding: 3.125rem;
+        font-size: 1.875rem;
+    }
+    .shadow{
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+        background-image: url(https://i.postimg.cc/T3p2qfCG/jrrr.png);
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
-        height: 50rem;
-        text-align: center;
-        font-size: 1.5625rem;
-        font-weight: bolder;
-        font-family: "quicksand";
-        color: $color-text-secundario;
-        padding: 3.125rem 31.25rem 3.125rem 31.25rem;
-        button{
-            background-color: lightcoral;
-            border: none;
-            margin-top: 6.25rem;
-            padding: 1rem 2rem;
-            color: $color-text-principal;
-            position: relative;
-        }
+    }
+    .p-2{
+        text-align: left;
     }
 }
